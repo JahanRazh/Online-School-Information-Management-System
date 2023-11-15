@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="build/lib/lib/commons-fileupload-1.2.1-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="build/lib/lib/mysql-connector-java.jar"/>
+	<classpathentry kind="lib" path="build/lib/lib/slf4j-nop-1.6.1.jar"/>
+	<classpathentry kind="lib" path="build/lib/lib/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="build/lib/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

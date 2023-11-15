@@ -1,0 +1,125 @@
+-- Create the school_management_system database
+CREATE DATABASE schoolmanagementsystem;
+
+-- Use the schoolmanagementsystemdatabase
+USE schoolmanagementsystem;
+
+
+CREATE TABLE `admin` (
+  `AID` int NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `phone` int DEFAULT NULL,
+  `nic` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `position` varchar(45) DEFAULT NULL,
+  `salary` double DEFAULT NULL,
+  `username` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`AID`)
+) ;
+
+
+INSERT INTO `admin` VALUES (1,'John Doe',30,'123 Main St',1234567890,'ABC123456','john@example.com','Administrator',50000,'admin','password');
+
+
+CREATE TABLE `garde` (
+  `gId` int NOT NULL,
+  `garde` varchar(45) DEFAULT NULL,
+  `amount` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`gId`)
+) ;
+
+
+
+CREATE TABLE `notices` (
+  `noticeID` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(145) DEFAULT NULL,
+  `description` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`noticeID`)
+) ;
+
+
+
+CREATE TABLE `payment` (
+  `payID` int NOT NULL,
+  `cardNo` varchar(45) DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `expiryDate` varchar(45) DEFAULT NULL,
+  `cvv` int DEFAULT NULL,
+  PRIMARY KEY (`payID`)
+) ;
+
+
+
+CREATE TABLE `student` (
+  `sid` int NOT NULL,
+  `name`varchar(75) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `address` varchar(75) DEFAULT NULL,
+  `phone` int DEFAULT NULL,
+  `grade` int DEFAULT NULL,
+  `regstatus` varchar(45) DEFAULT NULL,
+  `username` varchar(75) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`sid`)
+) ;
+
+
+CREATE TABLE `subject` (
+  `subjectID` varchar(50) NOT NULL,
+  `teacherID` int DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `description` varchar(495) DEFAULT NULL,
+  `hours` int DEFAULT NULL,
+  PRIMARY KEY (`subjectID`)
+);
+
+
+
+CREATE TABLE `teacher` (
+  `teacherID` int NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `nic` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `phone` int DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `salary` double DEFAULT NULL,
+  `username` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`teacherID`)
+) ;
+
+
+
+INSERT INTO `teacher` VALUES (0,'Jane Smith ',22,'200056492916','kandy',776543321,'jane.smith@email.com',70000,'Jane Smith','321');
+
+
+
+CREATE TABLE `user` (
+  `username` int NOT NULL,
+  `password` varchar(15) DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `phone` int DEFAULT NULL,
+  PRIMARY KEY (`username`)
+) ;
+
+CREATE TABLE `principle` (
+  `PID` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `phone` int DEFAULT NULL,
+  `nic` varchar(45) DEFAULT NULL,
+  `username` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`PID`)
+) ;
+
+
+
+INSERT INTO `principle` VALUES (1,'kasun',55,'kandy',787710175,'997633765V','kasun','111222');

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+     <servlet>
+     	<servlet-name>stdLoginUI</servlet-name>
+     	<servlet-class>servlets.StdLoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>stdLoginUI</servlet-name>
+     	<url-pattern>/logStd</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>addPaymentUI</servlet-name>
+     	<servlet-class>com.school.AddPaymentServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>addPaymentUI</servlet-name>
+     	<url-pattern>/addPayment</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>teacherLoginUI</servlet-name>
+     	<servlet-class>servlets.TeacherLoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>teacherLoginUI</servlet-name>
+     	<url-pattern>/logTeacher</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>adminLoginUI</servlet-name>
+     	<servlet-class>servlets.AdminLoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>adminLoginUI</servlet-name>
+     	<url-pattern>/logAdmin</url-pattern>
+     </servlet-mapping>
+     <servlet>
+     	<servlet-name>principleLoginUI</servlet-name>
+     	<servlet-class>servlets.PrincipleLoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>principleLoginUI</servlet-name>
+     	<url-pattern>/logPrinciple</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>addSubjectUI</servlet-name>
+     	<servlet-class>servlets.AddSubjectServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>addSubjectUI</servlet-name>
+     	<url-pattern>/addSubject</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>updateSubjectUI</servlet-name>
+     	<servlet-class>servlets.updateSubjectServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateSubjectUI</servlet-name>
+     	<url-pattern>/updateSub</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>RemoveSubjectUI</servlet-name>
+     	<servlet-class>servlets.removeSubjectServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>RemoveSubjectUI</servlet-name>
+     	<url-pattern>/removeSub</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>StudentUI</servlet-name>
+     	<servlet-class>servlets.ShowGrdDetails</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>StudentUI</servlet-name>
+     	<url-pattern>/showGrd</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+		<servlet-name>createStudentAccount</servlet-name>
+		<servlet-class>servlets.createStudentAccount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createStudentAccount</servlet-name>
+		<url-pattern>/createStudent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>createTeacherAccount</servlet-name>
+		<servlet-class>servlets.createTeacherAccount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createTeacherAccount</servlet-name>
+		<url-pattern>/createTeacher</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>updateStudentAccount</servlet-name>
+		<servlet-class>servlets.updateStudentAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateStudentAccount</servlet-name>
+		<url-pattern>/updateStudent</url-pattern>
+	</servlet-mapping> 
+
+	<servlet>
+	<servlet-name>updateTeacherAccount</servlet-name>
+		<servlet-class>servlets.updateTeacherAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateTeacherAccount</servlet-name>
+		<url-pattern>/updateTeacher</url-pattern>
+	</servlet-mapping> 
+
+	<servlet>
+	<servlet-name>removeStudentAccount</servlet-name>
+		<servlet-class>servlets.removeStudentAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>removeStudentAccount</servlet-name>
+		<url-pattern>/removeStudent</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>removeTeacherAccount</servlet-name>
+		<servlet-class>servlets.removeTeacherAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>removeTeacherAccount</servlet-name>
+		<url-pattern>/removeTeacher</url-pattern>
+	</servlet-mapping> 
+	 
+	 <servlet>
+		<servlet-name>SemesterReg</servlet-name>
+		<servlet-class>servlets.SemRegServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		<servlet-name>SemesterReg</servlet-name>
+		<url-pattern>/semReg</url-pattern>
+	 </servlet-mapping> 
+	 
+	 <servlet>
+		<servlet-name>NoticesUI</servlet-name>
+		<servlet-class>servlets.ViewNoticeServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		<servlet-name>NoticesUI</servlet-name>
+		<url-pattern>/viewNotice</url-pattern>
+	 </servlet-mapping> 
+	 
+	 <servlet>
+		<servlet-name>CreateNoticeUI</servlet-name>
+		<servlet-class>servlets.CreateNoticeServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		<servlet-name>CreateNoticeUI</servlet-name>
+		<url-pattern>/createNotice</url-pattern>
+	 </servlet-mapping> 
+         
+     <servlet>
+		<servlet-name>updateNoticeUI</servlet-name>
+		<servlet-class>servlets.NoticeUpdateServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		<servlet-name>updateNoticeUI</servlet-name>
+		<url-pattern>/updateNotice</url-pattern>
+	 </servlet-mapping>   
+	 
+	 <servlet>
+		<servlet-name>RemoveNoticeUI</servlet-name>
+		<servlet-class>servlets.removeNoticeServlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		<servlet-name>RemoveNoticeUI</servlet-name>
+		<url-pattern>/removeNotice</url-pattern>
+	 </servlet-mapping> 
+         
+</web-app>

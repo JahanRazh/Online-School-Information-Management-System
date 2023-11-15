@@ -1,0 +1,54 @@
+						Online School Information Management System
+
+						
+								--Group Details--
+							------------------------------
+
+Group Number: MLB - WD - G345 
+  
+This is a group project done by 4 members This was completed on 2023 
+
+This is a web application developed using Java language according to the MVC architecture JSP is used for the front end and MySql has been used as the database Servlets are used to make the connection between the frontend and the database
+
+This is not a fully functional school management system. But you can create, read, update, and delete data using the application
+  
+  
+   Student Registration Number                Student Name
+   
+     IT22575562 ( 4.2)                      Wijekoon W.M.M.G.K.P
+
+     IT22591098 (4.2)                       Jayalath J.P.R.J
+
+     IT22606792 (4.1)                       Perera B.B.A.R
+
+     IT22604712 (4.1)                       Navanjana L.A.V
+     
+     
+   -Individual Contribution-
+ ---------------------------
+          
+ IT22591098 J.P.R.J Jayalath
+ Teacher - (Subject Part)
+ 
+   Subject.java
+   Teacher.java
+   DBconnect.java
+   schoolDBUtil.java
+   
+   AddSubjectServlet.java
+   updateSubjectServlet.java
+   removeSubjectServlet.java
+   TeacherLoginServlet.java
+   ViewSubjectServlet.java
+   
+   addSubjectUI.jsp
+   updateSubjectUI.jsp
+   RemoveSubjectUI.jsp
+   SubjectUI.jsp
+   
+   index.jsp
+   navbar.jsp
+   style.css
+   login.css
+   web.xml
+           	

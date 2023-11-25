@@ -6,4 +6,4 @@ Quick access to web application below link:
 
 https://github.com/JahanRazh/Online-School-Information-Management-System/tree/809abf1027e274ddf88746927b3a5690193e70de/OnlineSchool_ManagementSystem
 
-<img src="https://raw.githubusercontent.com/BEPb/BEPb/5c63fa170d1cbbb0b1974f05a3dbe6aca3f5b7f3/assets/Bottom_up.svg" width="100%" />
+<img src="" width="100%" />

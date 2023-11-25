@@ -1,5 +1,7 @@
 # Online-School-Information-Management-System
 
+1 Year 2 Semester IWT Group project @SLIITUN
+<br>
 An online school information management system (SIS) is a web application that helps schools manage their day-to-day operations. SISs are cloud-based and can be accessed from anywhere with an internet connection. They typically include a variety of modules for managing student data, attendance, grades, transcripts, scheduling, and communication.
 
 Quick access to web application below link:
